@@ -1,0 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+.btn{
+    font-style: italic;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Common Pixel', sans-serif;
+}
+.btn:hover{
+    background-color: rgba(78, 135, 226, 0.747);
+}

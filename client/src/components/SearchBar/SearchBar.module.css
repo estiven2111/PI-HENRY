@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/take-looks');
+.container{
+    text-align: center;
+    text-decoration: dashed;
+    color: white;
+    font-family: 'Take Looks', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    background: rgba(94, 89, 89, 0.539);
+   width: 80%;
+
+}
+.container input{
+    box-shadow: 0 5px 10px 0 rgba(236, 30, 8, 0.922), 0 7px 5px 0 rgba(2, 2, 250, 0.79);
+    margin-top: 30px;
+    font-family: 'Take Looks', sans-serif;
+    width: 200px;
+    text-align: center;
+}
+.container .selects{
+   margin: 20px;
+  
+}
+.selects select{
+    font-family: 'Take Looks', sans-serif;
+    margin-left: 30px;
+}
+button{
+    font-family: 'Take Looks', sans-serif;
+
+}
+.links button{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 20% ;
+    background-color: rgba(4, 24, 244, 0.973);
+    box-shadow: 0 12px 20px 0 rgba(236, 30, 8, 0.922), 0 6px 20px 0 rgba(223, 214, 214, 0.79);
+}
+.links button:hover{
+    box-shadow: 0 16px 25px 0 rgba(4, 24, 244, 0.973), 0 6px 20px 0 rgba(106, 168, 223, 0.79);
+}
+.links button:hover:not(.active){
+    background-color: rgba(236, 30, 8, 0.922);
+}
+
+
+
+

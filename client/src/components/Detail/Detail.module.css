@@ -1,0 +1,81 @@
+.container{
+    text-align: center;
+    text-decoration: dashed;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: auto;
+    background: rgba(94, 89, 89, 0.539);
+   width: 80%;
+  display: inline;
+  align-items: center;
+ 
+}
+.container img{
+    margin: auto;
+    width: 80%;
+    border-radius: 20%;
+    box-shadow: 0 75px 90px 0 rgba(236, 11, 11, 0.92), 0 127px 180px 0 rgba(7, 39, 243, 0.61);
+    margin-bottom: 20px;
+    
+}
+.img{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+   
+    
+}
+
+.container ul{
+    background: rgba(57, 56, 56, 0.669);
+    color: rgb(245, 245, 245);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+   margin: auto;
+   margin-bottom: 15px;
+   border-radius: 10%;
+    padding: 2%;
+    border: dashed blue;
+}
+.container ul li{
+    margin: 10px;
+}
+
+.container .name{
+    
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width:45%;
+    
+}
+.container .released{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width:45%;
+    }
+.container .platform{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width:45%;
+    }
+.container .genre{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width:45%;
+    
+}
+@import url('https://fonts.cdnfonts.com/css/star-renegades');
+.desc{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family: 'Star Renegades', sans-serif;
+    background: rgba(139, 137, 137, 0.683);
+    color: black;
+    border-radius: 10%;
+    padding: 2%;
+    border: dashed blue;
+    }

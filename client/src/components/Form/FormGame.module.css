@@ -1,0 +1,49 @@
+.container{
+    text-align: center;
+    text-decoration: dashed;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    background: rgba(94, 89, 89, 0.539);
+   width: 80%;
+}
+
+.container form{
+
+    margin: 0px;
+    margin: auto;
+    width: 50%;
+}
+.container form input{
+   text-align: justify;
+}
+
+.input{
+    margin: auto;
+   width: 30%;
+
+}
+.txt{
+    color: rgb(17, 236, 64);
+    text-decoration: dashed;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Lilita One', cursive;
+    animation: alternate-reverse;
+    translate:5,10 ;
+}
+
+.container form ul{
+    width: 100%;
+    margin: 20px;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin: auto;
+    margin-bottom: 50px;
+}
+.container form ul li{
+    margin: 10px;
+}
+
+
